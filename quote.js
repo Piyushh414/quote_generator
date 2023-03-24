@@ -30,7 +30,7 @@ const quotes =  [{
 
 {
     quote: 'Life is 10% what happens to us and 90% how we react to it.',
-    person: 'Charles R. Swindoll'
+    person: 'Charles R. Swindol'
 },  
 
 ];
