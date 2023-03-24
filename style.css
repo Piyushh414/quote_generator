@@ -1,0 +1,67 @@
+/* General Styles  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 500px;
+    width: 550px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(https://wallpapercave.com/wp/wp5529802.jpg) no-repeat center center/    cover;
+}
+
+.header{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 500px;
+}
+
+.quote_container{
+    background-color: black;
+    color: white;
+    padding: 50px 40px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+}
+
+.quote_container .text_area{
+    font-size: 28px;
+    line-height: 1.5rem;
+}
+
+.quote_container .person{
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 300px;
+
+}
+
+
+
+.button_area button{
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 70px;
+    border-radius: 5px;
+    background-color: lightyellow;
+}
+
+.button_area button:active{
+    background-color: darkblue;}
